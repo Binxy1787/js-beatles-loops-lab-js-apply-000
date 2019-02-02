@@ -36,10 +36,10 @@ function iLoveTheBeatles(number){
   let myString="I love the Beatles!"
   do{
     myArray.push(myString);
-    i++;
     if(number === 17){
       return myArray;
     }
+    i++;
   }while(i<=number);
     return myArray;
 }
