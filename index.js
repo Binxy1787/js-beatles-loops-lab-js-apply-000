@@ -35,7 +35,7 @@ function iLoveTheBeatles(number){
   let myArray =[];
   let myString="I love the Beatles!"
   do{
-    if(number === 17){
+    if(number == 17){
       myArray.push(myString);
       return myArray;
     }
