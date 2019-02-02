@@ -29,7 +29,7 @@ function johnLennonFacts(facts){
   return factArray;
 }
 
-//do-while loop.
+//do-while loop. Prints a string a number of times based on a condition.
 function iLoveTheBeatles(number){
   var i=0;
   let myArray =[];
