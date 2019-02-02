@@ -31,7 +31,6 @@ function johnLennonFacts(facts){
 
 //do-while loop. Prints a string a number of times based on a condition.
 function iLoveTheBeatles(number){
-  var i=0;
   let myArray =[];
   let myString="I love the Beatles!"
   do{
@@ -40,8 +39,8 @@ function iLoveTheBeatles(number){
       return myArray;
     }
     myArray.push(myString);
-    i++;
-  }while(i<=number);
+    number++;
+  }while(number < 15);
     return myArray;
 }
 
