@@ -40,7 +40,6 @@ function iLoveTheBeatles(number){
     myArray.push(myString);
     console.log(myArray);
     i++;
-    
   return myArray;
   
 }
