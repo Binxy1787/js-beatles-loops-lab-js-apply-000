@@ -39,6 +39,5 @@ function iLoveTheBeatles(number){
     i++;
   }while(i<number);
     myArray.push(myString);
-    console.log(myArray);
 }
 
