@@ -37,7 +37,7 @@ function iLoveTheBeatles(number){
   do{
     myArray.push(myString);
     i++;
-  }while(i<number);
-    myArray.push(myString);
+  }while(i<=number);
+    return myArray;
 }
 
